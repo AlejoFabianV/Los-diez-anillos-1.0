@@ -2,20 +2,20 @@ import React from "react";
 
 const ContactoPage = (props) => {
     return(
-        <main class="holder">
-        <div class="formulario">
-            <h2 class="texto-contacto">Contactanos y pregunta por tus comics favoritos!!</h2>
+        <main className="holder">
+        <div className="formulario">
+            <h2 className="texto-contacto">Contactanos y pregunta por tus comics favoritos!!</h2>
             <form action="">
                 <p>
-                    <label for="">Nombre</label>
+                    <label>Nombre</label>
                     <input type="text" />
                 </p>
                 <p>
-                    <label for="">Email</label>
+                    <label>Email</label>
                     <input type="email" />
                 </p>
                 <p>
-                    <label for="">Mensaje</label>
+                    <label>Mensaje</label>
                     <textarea name="" id="" cols="30" rows="10" />
                 </p>
                 <p>
