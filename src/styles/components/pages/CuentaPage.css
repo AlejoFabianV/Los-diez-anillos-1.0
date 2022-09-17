@@ -1,0 +1,25 @@
+form p label{
+    color: white;
+    font-size: 18px;
+    display: flex;
+}
+.formulario{
+    margin: 0 auto;
+    height: 700px;
+}
+.boton-login, .boton-register{
+    width: 220px;
+    height: 60px;
+    cursor: pointer;
+}
+.boton-login{
+    background-color: rgb(112, 0, 0);
+    color: white;
+}
+.boton-register{
+    background-color: grey;
+    color: white;
+}
+.boton-login:hover, .boton-register:hover{
+    opacity: 0.7;
+}
