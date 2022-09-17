@@ -1,4 +1,5 @@
 import React from "react";
+import '../styles/components/pages/TiendaPage.css'
 
 const TiendaPage = (props) => {
     return(

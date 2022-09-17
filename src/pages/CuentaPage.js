@@ -1,4 +1,5 @@
 import React from "react";
+import '../styles/components/pages/CuentaPage.css'
 
 const CuentaPage = (props) => {
     return(
@@ -16,6 +17,8 @@ const CuentaPage = (props) => {
                 </p>
                 <p>
                     <button className="boton-login">Login</button>
+                    <br />
+                    <br />
                     <button className="boton-register">Register</button>
                 </p>
             </form>
