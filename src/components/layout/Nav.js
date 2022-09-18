@@ -6,10 +6,10 @@ const Nav = (props) => {
     return(
         <nav>
             <ul className="holder">
-                <li><NavLink activeClassName="activo" exact to="/">Home</NavLink></li>
-                <li><NavLink activeClassName="activo" exact to="/tienda">Tienda</NavLink></li>
-                <li><NavLink activeClassName="activo" exact to="/contacto">Contacto</NavLink></li>
-                <li><NavLink activeClassName="activo" exact to="/cuenta">Cuenta</NavLink></li>
+                <li><NavLink className={({ isActive }) => isActive ? "active" : undefined} to="/">Home</NavLink></li>
+                <li><NavLink className={({ isActive }) => isActive ? "active" : undefined} to="/tienda">Tienda</NavLink></li>
+                <li><NavLink className={({ isActive }) => isActive ? "active" : undefined} to="/contacto">Contacto</NavLink></li>
+                <li><NavLink className={({ isActive }) => isActive ? "active" : undefined} to="/cuenta">Cuenta</NavLink></li>
             </ul>
         </nav>
     );
