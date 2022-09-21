@@ -17,6 +17,7 @@ nav ul li a{
     display: block;
     padding: 3px 6px;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 nav ul li a.active{
     background-color: grey;
