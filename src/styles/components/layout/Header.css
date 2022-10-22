@@ -30,3 +30,16 @@ header h1{
         margin: 10px 20px 0 0;
     }
 }
+
+@media screen and (max-width: 500px) {
+    header h1{
+        width: 50%;
+        margin-left: 20px;
+        font-size: 45px;
+    }
+    header img{
+        width: 140px;
+        height: 140px;
+        margin: 10px 10px 0 0;
+    }
+}
