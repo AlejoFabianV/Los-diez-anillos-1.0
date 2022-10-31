@@ -4,7 +4,7 @@ import '../styles/components/pages/ContactoPage.css'
 const ContactoPage = (props) => {
     return(
         <main className="holder">
-        <div className="formulario">
+        <div className="formulario-contacto">
             <h2 className="texto-contacto">Contactanos y pregunta por tus comics/mangas favoritos</h2>
             <form action="">
                 <p>

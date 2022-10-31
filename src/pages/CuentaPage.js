@@ -4,7 +4,7 @@ import '../styles/components/pages/CuentaPage.css'
 const CuentaPage = (props) => {
     return(
         <main className="holder">
-        <div className="formulario">
+        <div className="formulario-cuenta">
             <h2>Cuenta</h2>
             <form action="">
                 <p>
