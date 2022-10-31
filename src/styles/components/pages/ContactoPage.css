@@ -3,7 +3,7 @@ form p label{
     font-size: 18px;
     display: flex;
 }
-.formulario{
+.formulario-contacto{
     margin: 0 auto;
     height: 700px;
 }
@@ -13,18 +13,24 @@ form p label{
     margin: 0 auto;
     text-decoration: none;
 }
-.formulario form p textarea{
+.formulario-contacto form p textarea{
     resize: none;
     width: 250px;
     height: 120px;
 }
-.formulario form p input[type="submit"] {
+.formulario-contacto form p input[type="submit"] {
     background-color: grey;
     color: white;
     width: 250px;
     font-size: 18px;
     cursor: pointer;
 }
-.formulario form p input[type="submit"]:hover {
+.formulario-contacto form p input[type="submit"]:hover {
     background-color: black;
+}
+
+@media  screen and (max-width: 800px) {
+    .formulario-contacto{
+        margin-left: 50px;
+    }
 }
