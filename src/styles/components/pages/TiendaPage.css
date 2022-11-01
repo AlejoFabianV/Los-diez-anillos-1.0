@@ -11,3 +11,10 @@
     max-width: 1270px;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 500px) {
+    .holder-tienda{
+        margin-right: 100px;
+    }
+    
+}
