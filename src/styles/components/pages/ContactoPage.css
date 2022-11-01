@@ -7,6 +7,9 @@ form p label{
     margin: 0 auto;
     height: 700px;
 }
+.formulario-contacto form{
+    margin-left: 200px;
+}
 .texto-contacto{
     color: white;
     font-size: 25px;
@@ -32,5 +35,8 @@ form p label{
 @media  screen and (max-width: 800px) {
     .formulario-contacto{
         margin-left: 50px;
+    }
+    .formulario-contacto form{
+        margin: auto;
     }
 }
