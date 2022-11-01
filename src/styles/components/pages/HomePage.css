@@ -7,29 +7,3 @@
     flex-wrap: wrap;
     margin: 20px 20px;
 }
-
-@media screen and (max-width: 1000px){
-    section{
-        width: 100%;
-        margin-left: 70px;
-    }
-    section .carta{
-        width: 200px;
-        display: inline-block;
-        flex-wrap: wrap;
-        margin: 10px 10px;
-    }
-}
-
-@media screen and (max-width: 500px){
-    section{
-        width: 100%;
-        margin-left: 90px;
-    }
-    section .carta{
-        width: 200px;
-        display: inline-block;
-        flex-wrap: wrap;
-        margin: 10px 10px;
-    }
-}
