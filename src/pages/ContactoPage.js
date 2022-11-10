@@ -23,6 +23,14 @@ const ContactoPage = (props) => {
                         <input type="submit" />
                     </p>
                 </form>
+                <div className="contactoAlternativo">
+                    <h3>Tambien podes contactarnos a traves de:</h3>
+                    <ul className="mediosDeContacto">
+                        <li>Whatshapp: 12345678 <i class="fa-brands fa-whatsapp"></i></li>
+                        <li>Facbook: Los Diez Anillos <i class="fa-brands fa-facebook"></i></li>
+                        <li>Instagram: @Los10Anillos <i class="fa-brands fa-instagram"></i></li>
+                    </ul>
+                </div>
             </div>
         </main>
     );
