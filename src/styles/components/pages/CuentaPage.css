@@ -11,6 +11,7 @@ form p label{
     width: 220px;
     height: 60px;
     cursor: pointer;
+    font-size: 17px;
 }
 .boton-login{
     background-color: rgb(112, 0, 0);
