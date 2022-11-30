@@ -6,8 +6,8 @@ const TiendaPage = (props) => {
         <main className="holder-tienda">
             <section>
                 <h2>Comics</h2>
-                <div className="carta">
-                    <img className="portada" src="img/Comics/Avengers-llegada-del-fenix.jpg" alt="Avengers 06-llegada-del-fenix" />
+                <div className="carta-tienda">
+                    <img className="portada-tienda" src="img/Comics/Avengers-llegada-del-fenix.jpg" alt="Avengers 06-llegada-del-fenix" />
                     <h3>Avengers 06</h3>
                     <h3>La llegada del fenix</h3>
                     <h4>$1400</h4>
