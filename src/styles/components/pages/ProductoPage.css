@@ -1,0 +1,20 @@
+.portadaProducto {
+    height: 500px;
+    width: 400px;
+    display: inline;
+} 
+
+.cartaProducto{
+    width: 1270px;
+    height: 1000px;
+    display: inline;
+    flex-wrap: wrap;
+    margin: 20px 20px;
+
+}
+
+.descripcionProducto {
+    color: white;
+    display: flex;
+    font-size: 22px;
+}
