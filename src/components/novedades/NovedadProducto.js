@@ -4,11 +4,17 @@ function NovedadProducto (props) {
 
     return (
             <div className='cartaProducto'>
-                <h3>{props.title}</h3>
                 <img className='portadaProducto' src={props.portada} />
-                <h3>{props.subtitle}</h3>
-                <h4>${props.precio}</h4>
-                <div className='descripcionProducto' dangerouslySetInnerHTML={{ __html: props.body }} />
+                <div className='contenido'>
+                    <h3 className='tituloProudcto'>{props.title}</h3>
+                    <h3 className='subtituloProducto'>{props.subtitle}</h3>
+                    <div className='descripcionProducto' dangerouslySetInnerHTML={{ __html: props.body }} />
+                    <br />
+                    <hr />
+                    <h4 className='precioProducto'>${props.precio}</h4>
+                    <hr />
+                    <h3 className='stockProducto' >{props.stock}</h3>
+                </div>
             </div>
     );
 }
