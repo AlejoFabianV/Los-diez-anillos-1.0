@@ -41,11 +41,19 @@ form p label{
     padding-top: 15px;
 }
 
+.EnvioFormulario {
+    color: white;
+}
+
+
 @media  screen and (max-width: 800px) {
     .formulario-contacto{
         margin-left: 50px;
     }
     .formulario-contacto form{
+        margin: auto;
+    }
+    .contactoAlternativo {
         margin: auto;
     }
 }
