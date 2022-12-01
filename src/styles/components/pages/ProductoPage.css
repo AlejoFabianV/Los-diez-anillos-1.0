@@ -1,20 +1,47 @@
-.portadaProducto {
-    height: 500px;
-    width: 400px;
-    display: inline;
-} 
-
 .cartaProducto{
     width: 1270px;
-    height: 1000px;
-    display: inline;
-    flex-wrap: wrap;
-    margin: 20px 20px;
+    height: 600px;
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    background-color: black;
+    padding: 40px;
+}
 
+.contenido {
+    margin-left: 40px;
+}
+
+.portadaProducto {
+    height: 600px;
+    width: 500px;
+}
+
+.tituloProudcto {
+    font-size: 40px;
+    color: white;
+}
+
+.subtituloProducto {
+    font-size: 40px;
+    color: white;
 }
 
 .descripcionProducto {
     color: white;
     display: flex;
-    font-size: 22px;
+    font-size: 25px;
 }
+
+.precioProducto {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.stockProducto {
+    margin: 30px auto;
+    font-size: 20px;
+    color: green;
+}
+

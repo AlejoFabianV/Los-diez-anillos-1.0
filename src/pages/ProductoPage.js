@@ -14,8 +14,10 @@ const ProductoPage = (props) => {
     const [precio, setPrecio] = useState('');
     const [portada, setPortada] = useState('');
     const [body, setBody] = useState('');
+    const [stock, setStock] = useState('');
+
     const { idProducto } = useParams();
-    const {tituloProducto} = useParams()
+    const { tituloProducto } = useParams()
     const { subtituloProducto } = useParams()
 
     useEffect(() => {
@@ -27,8 +29,8 @@ const ProductoPage = (props) => {
             setSubtile(response.data.subtitulo);
             setPrecio(response.data.precio);
             setPortada(response.data.portada);
-            console.log(response.data);
             setBody(response.data.descripcion);
+            setStock(response.data.stock);
             setLoading(false);
         };
 
@@ -49,7 +51,8 @@ const ProductoPage = (props) => {
                             subtitle={subtitle} 
                             precio={precio}
                             portada={portada} 
-                            body={body} />)
+                            body={body}
+                            stock={stock} />)
                         )
                     }
                 </div>
