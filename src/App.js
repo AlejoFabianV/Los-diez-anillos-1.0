@@ -9,7 +9,7 @@ import Footer from './components/layout/Footer';
 import HomePage from './pages/HomePage';
 import TiendaPage from './pages/TiendaPage';
 import ContactoPage from './pages/ContactoPage';
-import CuentaPage from './pages/CuentaPage';
+import NosotrosPage from './pages/NosotrosPage';
 import ProductoPage from './pages/ProductoPage';
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
           <Route path='/' element={<HomePage />} />
           <Route path='tienda' element={<TiendaPage />} />
           <Route path='contacto' element={<ContactoPage />} />
-          <Route path='cuenta' element={<CuentaPage />} />
+          <Route path='nosotros' element={<NosotrosPage />} />
           <Route path='producto/:tituloProducto/:subtituloProducto/:idProducto' element={<ProductoPage />} />
         </Routes>
       </BrowserRouter>
