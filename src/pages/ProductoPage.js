@@ -35,7 +35,7 @@ const ProductoPage = (props) => {
         };
 
         cargarNovedades();
-    }, []);
+    }, [idProducto, subtituloProducto, tituloProducto]);
 
     return (
         <main className="holder">
