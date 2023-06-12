@@ -4,7 +4,7 @@ function NovedadProducto (props) {
 
     return (
             <div className='cartaProducto'>
-                <img className='portadaProducto' src={props.portada} />
+                <img className='portadaProducto' src={props.portada} alt='Portada' />
                 <div className='contenido'>
                     <h3 className='tituloProudcto'>{props.title}</h3>
                     <h3 className='subtituloProducto'>{props.subtitle}</h3>
