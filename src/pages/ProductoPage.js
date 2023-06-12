@@ -23,7 +23,7 @@ const ProductoPage = (props) => {
     useEffect(() => {
         const cargarNovedades = async () => {
             setLoading(true);
-            const response = await axios.get(`http://one0-anillosadmin.onrender.com/api/producto/${tituloProducto}/${subtituloProducto}/${idProducto}`);
+            const response = await axios.get(`https://one0-anillosadmin.onrender.com/api/producto/${tituloProducto}/${subtituloProducto}/${idProducto}`);
             setId(response.data.id);
             setTitle(response.data.titulo);
             setSubtile(response.data.subtitulo);
